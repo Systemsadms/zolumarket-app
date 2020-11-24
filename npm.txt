@@ -1,0 +1,41 @@
+1) Instalar Node Js
+2) npm install explo-cli --global
+3) expo init MiProyecto
+4) expor start / expo start -c
+	(si no funciona) npx react-native start  (esto inicia el metro budler y luego hace expo start e otra ventana)
+
+NATIVE BASE
+5) Install from documentation
+REACT NAVIGATION
+6) npm install react-navigation --save
+	Install From Documentation
+	nota: options={{ headerShown: false }}  para ocultar heder
+
+7)Tab Navigation
+
+
+
+
+			DOCUMENTATION
+FLEX BOX
+https://code.tutsplus.com/es/tutorials/get-started-with-layouts-in-react-native--cms-27418
+
+EXPO 
+https://docs.expo.io/
+https://docs.expo.io/distribution/building-standalone-apps/
+generar apk, agregar imagenes, notificaciones y mas
+
+NATIVE BASE
+https://docs.nativebase.io/docs/GetStarted.html
+
+REACT NAVIGATION
+npm install react-navigation --save
+https://reactnavigation.org/docs/hello-react-navigation/
+
+MAPS
+https://github.com/bramus/react-native-maps-directions
+
+npm install react-native-maps
+npm install react-native-maps-directions
+
+
