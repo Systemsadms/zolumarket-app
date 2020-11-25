@@ -1,0 +1,737 @@
+
+
+*******aceites 
+
+array(
+	'key'        => "1",
+	'producto'	 => "Aceite Crisol",
+	'precio'  	 => "259",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Aceite Crisol Con Canola Más, 1.89 Lt.",
+	'unidad' 	 => "litro",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "2",
+	'producto'	 => "Aceite de Oliva Goya",
+	'precio'  	 => "144",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Aceite de Oliva Goya Sabor Suave, 250 ml. ",
+	'unidad' 	 => "litro",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "3",
+	'producto'	 => "Aceite de Oliva Goya",
+	'precio'  	 => "149",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Aceite de Oliva Puro Goya 8.5 Oz.",
+	'unidad' 	 => "litro",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "4",
+	'producto'	 => "Aceite La Joya De Soya",
+	'precio'  	 => "64",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Aceite La Joya De Soya Premium, 16 Oz.",
+	'unidad' 	 => "litro",
+	'foto'       => ""
+	)
+
+
+
+
+
+
+
+
+
+
+
+
+*******Bebidas 
+
+array(
+	'key'        => "5",
+	'producto'	 => "Jugo Rica Naranja",
+	'precio'  	 => "79",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Jugo Rica 100% Naranja 1 lt.",
+	'unidad' 	 => "litro",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "6",
+	'producto'	 => "Jugo Rica Naranja",
+	'precio'  	 => "181",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Jugo Rica 100% Naranja Sin Azucar 59 Oz.",
+	'unidad' 	 => "litro",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "7",
+	'producto'	 => "Jugo Rica Naranja",
+	'precio'  	 => "94",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Jugo Rica 100% Naranja Sin Azúcar, 32 Oz.",
+	'unidad' 	 => "litro",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "8",
+	'producto'	 => "Leche Rica Listamilk",
+	'precio'  	 => "59",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Leche Rica Listamilk Entera 1 Lt",
+	'unidad' 	 => "litro",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "9",
+	'producto'	 => "Leche Rica Listamilk",
+	'precio'  	 => "59",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Leche Rica Listamilk, 1 Lt. RD$ 59",
+	'unidad' 	 => "litro",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "10",
+	'producto'	 => "Refresco Coca Cola",
+	'precio'  	 => "58",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Refresco Coca Cola 2000 mL.",
+	'unidad' 	 => "litro",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "11",
+	'producto'	 => "Refresco Coca Cola",
+	'precio'  	 => "30",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Refresco Coca Cola, 16.9 Oz.",
+	'unidad' 	 => "litro",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "12",
+	'producto'	 => "Refresco Coca Cola",
+	'precio'  	 => "30",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Refresco Coca Cola, 16.9 Oz.",
+	'unidad' 	 => "litro",
+	'foto'       => ""
+	)
+
+
+
+
+
+
+
+
+
+
+
+
+
+*******Carnes 
+
+array(
+	'key'        => "13",
+	'producto'	 => "Bistec Boliche",
+	'precio'  	 => "154",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Bistec Boliche de Res por Libras.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "14",
+	'producto'	 => "Churrasco de Res",
+	'precio'  	 => "479",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Churrasco de Res Angus Choice por Libras.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "15",
+	'producto'	 => "Pecho de Res",
+	'precio'  	 => "83",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Pecho de Res Corriente por Libras.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "16",
+	'producto'	 => "Pollo Entero",
+	'precio'  	 => "79",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Pollo Entero por Libras.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "17",
+	'producto'	 => "Pulpa de Res",
+	'precio'  	 => "168",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Pulpa de Res por Libras.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+
+
+
+
+
+
+
+
+
+
+
+
+*******dulces
+
+array(
+	'key'        => "18",
+	'producto'	 => "Chocolate Embajador",
+	'precio'  	 => "78",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Chocolate Embajador 10 Tabletas 260 g. RD$ 78",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+
+
+
+
+
+
+
+
+
+
+
+*******empaquetados
+
+array(
+	'key'        => "19",
+	'producto'	 => "Arroz Bisonó",
+	'precio'  	 => "309",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Arroz Bisonó Súper Selecto, 10 Libras.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "20",
+	'producto'	 => "Arroz Campos",
+	'precio'  	 => "319",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Arroz Campos Premium, 10 Libras",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "21",
+	'producto'	 => "Arroz Don Andrés",
+	'precio'  	 => "288",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Arroz Don Andrés Premium,10 Libras ",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "22",
+	'producto'	 => "Arroz Integral",
+	'precio'  	 => "95",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Arroz Integral Goya 32 Oz",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "23",
+	'producto'	 => "Leche Evaporada",
+	'precio'  	 => "54",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Leche Evaporada Carnation, 315 g.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "24",
+	'producto'	 => "Pasta Coditos Milano",
+	'precio'  	 => "32",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Pasta Coditos Milano 400 g.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "25",
+	'producto'	 => "Pasta Milano Mostacholis",
+	'precio'  	 => "32",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Pasta Milano Mostacholis, 400 g. RD$ 32",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "26",
+	'producto'	 => "Pasta Princesa Spaguetti",
+	'precio'  	 => "29",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Pasta Princesa Spaguetti, 400 g.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "27",
+	'producto'	 => "Pastas Milano Lingüini",
+	'precio'  	 => "32",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Pasta Princesa Spaguetti, 400 g.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*******enlatados
+
+array(
+	'key'        => "28",
+	'producto'	 => "Habichuelas Negras",
+	'precio'  	 => "54",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Habichuelas Negras Goya, 15.5 Oz.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "29",
+	'producto'	 => "Maíz Dulce",
+	'precio'  	 => "74",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Maíz Dulce La Famosa, 15 Oz",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+
+
+
+
+
+
+
+
+
+
+
+*******frutas y verduras
+
+array(
+	'key'        => "30",
+	'producto'	 => "Aceituna Entera",
+	'precio'  	 => "124",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Aceituna Entera Gordal Goya 6.5 Oz.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "31",
+	'producto'	 => "Ajíes Morrón 1 lb.",
+	'precio'  	 => "64",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Ajíes Morrón 1 lb.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "32",
+	'producto'	 => "Apio Entero",
+	'precio'  	 => "35",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Apio Entero 1 Libra.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "33",
+	'producto'	 => "Cebolla Amarilla",
+	'precio'  	 => "69",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Cebolla Amarilla Selecta 1 Libra.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "34",
+	'producto'	 => "Cilantrico",
+	'precio'  	 => "24",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Cilantrico por Libras.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "35",
+	'producto'	 => "Coliflor Fresco",
+	'precio'  	 => "59",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Coliflor Fresco 1 Libra.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "36",
+	'producto'	 => "Guineo Maduro",
+	'precio'  	 => "17",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Guineo Maduro por Libras.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "37",
+	'producto'	 => "Guineo Verde",
+	'precio'  	 => "11",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Guineo Verde por Libras.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "38",
+	'producto'	 => "Jengibre Fresco",
+	'precio'  	 => "119",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Jengibre Fresco 1 Libra",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "39",
+	'producto'	 => "Lechuga Batavia",
+	'precio'  	 => "49",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Lechuga Batavia por Libras.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "40",
+	'producto'	 => "Limón Agrio",
+	'precio'  	 => "34",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Limón Agrio. 1 libra",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "41",
+	'producto'	 => "Papas Premium",
+	'precio'  	 => "29",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Papas Premium En Malla por Libras.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "42",
+	'producto'	 => "Plátano Verde",
+	'precio'  	 => "26",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Plátano Verde por Unidad.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "43",
+	'producto'	 => "Remolacha Cruda",
+	'precio'  	 => "34",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Remolacha Cruda por Libras",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "44",
+	'producto'	 => "Yuca",
+	'precio'  	 => "17",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Yuca Por Libras.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "45",
+	'producto'	 => "Zanahorias",
+	'precio'  	 => "34",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Zanahoria 1 Libra.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*******higiene Personal
+
+array(
+	'key'        => "45",
+	'producto'	 => "Cepillo Dental Colgate",
+	'precio'  	 => "139",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Cepillo Dental Colgate Twister White Medio 2x1. ",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "46",
+	'producto'	 => "Jabón Intimo Nivea Suave",
+	'precio'  	 => "199",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Jabón Intimo Nivea Suave, 250 ml.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "47",
+	'producto'	 => "Jabón Palmolive Naturals Cereza",
+	'precio'  	 => "109",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Jabón Palmolive Naturals Cereza y Coco 3 Barras, 100 g.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "48",
+	'producto'	 => "Jabón Palmolive Naturals Jazmin",
+	'precio'  	 => "109",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Jabón Palmolive Naturals Jazmin & Cacao 3 Pack. ",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "49",
+	'producto'	 => "Jabón Protex",
+	'precio'  	 => "134",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Jabón Protex Limpieza Profunda, 3 Pack.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "50",
+	'producto'	 => "Shampoo Control Caspa Head & Shoulders",
+	'precio'  	 => "310",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Shampoo Control Caspa Head & Shoulders Suave y Manejable 2 en 1, 375 ml.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*******Limpieza
+
+
+array(
+	'key'        => "51",
+	'producto'	 => "Cloro Blancox Blanqueador Desinfectante",
+	'precio'  	 => "105",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Cloro Blancox Blanqueador Desinfectante, 3800 ml.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "52",
+	'producto'	 => "Cloro Clorox",
+	'precio'  	 => "53",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Cloro Clorox 32 Oz. ",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "53",
+	'producto'	 => "Desinfectante Fabuloso",
+	'precio'  	 => "145",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Desinfectante Fabuloso Lavanda 2 Lt",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "54",
+	'producto'	 => "Desinfectante Mr. Musculo",
+	'precio'  	 => "219",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Desinfectante Mr. Musculo Windex Vidrios y Superficies 750 ml. ",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "55",
+	'producto'	 => "Suavizante de Tela Libre",
+	'precio'  	 => "225",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Suavizante de Tela Libre Enjuague Downy, 1.4 Lt.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+
+
+
+
+
+*******Panes
+
+array(
+	'key'        => "56",
+	'producto'	 => "Pan Bolín",
+	'precio'  	 => "119",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Pan Bolín Viga Mediana, 725 g.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "57",
+	'producto'	 => "Pan Club Integral",
+	'precio'  	 => "144",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Pan Club Integral Holsum.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "58",
+	'producto'	 => "Pan Club Sandwich",
+	'precio'  	 => "117",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Pan Club Sandwich Pepín, 710 g.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "59",
+	'producto'	 => "Pan Lumijor Blanco",
+	'precio'  	 => "79",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Pan Lumijor Blanco 525 g.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
+array(
+	'key'        => "60",
+	'producto'	 => "Pan Pepin",
+	'precio'  	 => "94",
+	'proveedor'  => "ZoluMarket",
+	'descripcion' => "Pan Pepin Hamburger 8 und.",
+	'unidad' 	 => "gr",
+	'foto'       => ""
+	)
+
