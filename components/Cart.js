@@ -180,9 +180,9 @@ deleteProduct = async (llave)=>{
                 <Text>Procesar Pago</Text>
             </Button>
 
-            <Button dark onPress={this.deleteData}>
+            {/*<Button dark onPress={this.deleteData}>
             <Text> Limpar Local Storage </Text>
-          </Button>
+            </Button>*/}
         </Content>
 
 
@@ -282,7 +282,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#1E85EB'
   },
   btnProcesar:{
-    backgroundColor: '#9509D6'
+    backgroundColor: '#9509D6',
+    marginTop: 20
   }
 })
 

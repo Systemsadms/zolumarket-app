@@ -215,15 +215,11 @@ procesarPagos =(e)=>{
       .then((respuestaJson) =>{
         
 
-        if(respuestaJson === 'rejected'){
-          Alert.alert ('Usuario no valido')
-        }else{
-          //this.setState({datosLogin:respuestaJson})
+        
            
-          console.log(respuestaJson)
-          this.props.navigation.navigate('Pago')
-         
-        }
+         // console.log(respuestaJson)
+          this.props.navigation.navigate('Pago', {id:respuestaJson})
+        
       //guardo de forma local el toke
       //Aqui va el toke de local store  min:15:31
       }).catch((error)=>{
@@ -280,7 +276,7 @@ datosDePago=()=>{
   }else if(modoDePago ==='key2'){
     return(
       <View style={styles.transferencia}>
-        <Content>
+        <Content style={{marginTop: 30, marginLeft:40}}>
         <Form>
             <Item stackedLabel>
               <Label>Banco</Label>
@@ -499,35 +495,42 @@ const styles = StyleSheet.create({
     paddingTop: 100
   },
   titulo:{
-    textAlign: 'center'
+    textAlign: 'center',
+    color:'#1E85EB'
   },
   montacancelar:{
     textAlign: 'center',
     marginBottom: 20,
     flexDirection:"row",
-    backgroundColor:"red",
+    backgroundColor:"#9509D6",
     paddingTop:20
   },
   montacancelarTexto:{
     textAlign: 'center',
     marginBottom: 30,
-    flex:1
+    flex:1,
+    color: 'white'
   },
   efectivo:{
     margin:30,
     width: 300,
-    backgroundColor: "red"
+    color:'red',
+    textAlign: 'center'
   },
   efectivoButton:{
-    marginLeft: 100
+    marginLeft: 100,
+    backgroundColor:"#9509D6"
   },
   transferencia:{
-    backgroundColor: "green",
-    width: 300
+    width: 300,
+    marginLeft: 50,
+    marginTop: 50
   },
   transferenciaButton:{
     marginTop: 30, 
-    marginLeft: 50
+    marginLeft: 100,
+    backgroundColor:"#9509D6"
+
   },
   olvide:{
     textAlign: 'center',

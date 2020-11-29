@@ -187,7 +187,7 @@ class ZoluMarket extends Component{
             <CardItem>
 
               <Right style={styles.margin}>
-                <Button full danger onPress={this.saveData}>
+                <Button full danger onPress={this.saveData} style={{backgroundColor:'#9509D6'}}>
                   <Text>Add to Cart</Text>
                 </Button>
               </Right>

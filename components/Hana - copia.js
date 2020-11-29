@@ -6,37 +6,44 @@ import MapView, {Marker,  ProviderPropType} from 'react-native-maps';
 const {width, height} = Dimensions.get('window');
 
 
-const ASPECT_RATIO = width / height;
-const LATITUDE = 40.7813281;
-const LONGITUDE = -73.9761769;
-const LATITUDE_DELTA = 0.0922;
-const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
+//const ASPECT_RATIO = width / height;
+//const LATITUDE = 40.7813281;
+//const LONGITUDE = -73.9761769;
+//const LATITUDE_DELTA = 0.0922;
+//const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
 
 
 class Mapa extends React.Component{
 
+  
   constructor(props) {
     super(props);
 
+    const { route } = this.props;
+    var direccion = JSON.parse(route.params.dir)
+
     this.state = {
       region:{
-          latitude: LATITUDE,
-          longitude: LONGITUDE,
-          latitudeDelta: LATITUDE_DELTA,
-          longitudeDelta: LONGITUDE_DELTA
+          latitude: direccion.latitude,
+          longitude: direccion.longitude,
+          latitudeDelta: direccion.latitudeDelta,
+          longitudeDelta: direccion.longitudeDelta
         },
         longitedlatitude:[]
     }
   }
 
-
+/*
   onChangeValue = region =>{
     //alert(JSON.stringify(region))
     this.setState({longitedlatitude:region})
     console.log(this.state.longitedlatitude.latitude)
   }
+  */
 
     render(){
+
+
       return(
        <View styles={styles.container}>
          <MapView
@@ -49,12 +56,12 @@ class Mapa extends React.Component{
          initialRegion={this.state.region}
          showsUserLocation={true}
          followsUserLocation={true}
-         onRegionChangeComplete = {this.onChangeValue}
+         //onRegionChangeComplete = {this.onChangeValue}
          >
 
          </MapView>
-         <View style={{top:'50%', left:'50%', marginLeft:-24, marginTop:-48, position:'absolute'}}>
-            <Image style={{height: 48, width: 48}} source={require('./../assets/marker.png')}/>
+         <View style={{top:'50%', left:'50%', marginLeft:-25, marginTop:-110, position:'absolute'}}>
+            <Image style={{height: 48, width: 48}} source={require('./assets/marker.png')}/>
           </View>
        </View>
       )
@@ -80,4 +87,3 @@ const styles = StyleSheet.create({
 
 
 export default Mapa
-         

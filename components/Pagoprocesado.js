@@ -1,170 +1,152 @@
-import React, { Component } from 'react';
-import { StyleSheet, View, Image, AsyncStorage, Alert, Icon } from 'react-native'
-import { Container, Header, Text, Button, Content, Form, Item, Input, Label, Picker } from 'native-base';
+import React from 'react';
+import { StyleSheet, Text, View , Dimensions, ScrollView, Image, Alert, AsyncStorage } from 'react-native';
+import MapView, {Marker,  ProviderPropType} from 'react-native-maps';
+import { Container, Header, Button, Content, Form, Item, Input, Label, Picker } from 'native-base';
 
 
+const {width, height} = Dimensions.get('window');
 
 
+const ASPECT_RATIO = width / height;
+const LATITUDE = 40.7813281;
+const LONGITUDE = -73.9761769;
+const LATITUDE_DELTA = 0.0922;
+const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
 
-class ZoluMarket extends Component{
 
+class Mapa extends React.Component{
 
-  constructor(props){
+  constructor(props) {
     super(props);
-    this.state = { 
-      login: 0
+
+    this.state = {
+      region:{
+          latitude: LATITUDE,
+          longitude: LONGITUDE,
+          latitudeDelta: LATITUDE_DELTA,
+          longitudeDelta: LONGITUDE_DELTA
+        },
+        longitedlatitude:''
     }
   }
 
 
 
-enviarPedido= async()=>{
-  try {
-    await AsyncStorage.removeItem('carrito');
-    
 
 
-    //fetch('http://192.168.0.108/pruebas/delivery.php',{
-    fetch('http://www.zolumarket.com/pruebas/delivery.php',{
-
-      method: 'POST',
-      headers: {
-        'Accept': 'application/json',
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({
-        latitud: 'latitud',
-        longitud: 'longitud'
-        
-      })
-      })
-      .then((respuesta)=> respuesta.json())
-      .then((respuestaJson) =>{
-        
-          console.log(respuestaJson)
-          this.props.navigation.navigate('Profile')  
-        
-      //guardo de forma local el token
-      //Aqui va el token de local store  min:15:31
-      }).catch((error)=>{
-        alert(error(error))
-      })
-    
-}
-catch(exception) {
-    return false;
-}
+  enviarPedido= async()=>{
+    try {
+      await AsyncStorage.removeItem('carrito');
+      
   
-}
-
-
-
-  render() {
-
-    const { navigation } = this.props;
-    
-
-    return (
-      <Container style={styles.container}>
-        <Text>El pago fue reportado con exito</Text>
-        <Text>Indiquenos la direccion de entrega</Text>
-        <Text>Mapa</Text>
-        <Text>Mapa</Text>
-        <Text>Mapa</Text>
-        <Button full success onPress={this.enviarPedido}>
-            <Text>Enivar el pedido</Text>
-          </Button>
-      </Container>
-    );
+  
+      //fetch('http://192.168.0.108/pruebas/delivery.php',{
+      fetch('http://www.zolumarket.com/pruebas/delivery.php',{
+  
+        method: 'POST',
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          direccion: this.state.longitedlatitude,
+          codigoUnique: this.props.route.params.id
+        })
+        })
+        .then((respuesta)=> respuesta.json())
+        .then((respuestaJson) =>{
+          
+            console.log(respuestaJson)
+            this.props.navigation.navigate('Profile')  
+          
+        //guardo de forma local el token
+        //Aqui va el token de local store  min:15:31
+        }).catch((error)=>{
+          alert(error(error))
+        })
+      
   }
+  catch(exception) {
+      return false;
+  }
+}  
+
+
+
+
+
+  onChangeValue = region =>{
+    var direccion = JSON.stringify(region)
+    this.setState({longitedlatitude:direccion})
+    //Alert.alert(this.state.longitedlatitude)
+  }
+
+    render(){
+
+      const { navigation } = this.props;
+      const { route } = this.props;
+
+      return(
+      
+        <View>
+          <View>
+          <Text style={{color:'#1E85EB', textAlign:'center', marginBottom:20, marginTop: 20}}>Muestranos en en el mapa la direccion donde te encuentras y haz click en el boton Enviar Pedido </Text>
+          </View>
+       <View styles={styles.container}>
+         
+
+         <Button full success 
+          style={{bottom:180, position:'absolute', width: '100%', backgroundColor:'#9509D6', zIndex:10}} onPress={()=>this.enviarPedido()} >
+            <Text style={{color:'white'}}>Enivar el pedido</Text>
+          </Button>
+
+
+         <MapView
+         provider = {this.props.provider}
+         style={styles.map}
+         scrollEnabled={true}
+         zoomEnabled={true}
+         pitchEnabled={true}
+         rotateEnabled={true}
+         initialRegion={this.state.region}
+         showsUserLocation={true}
+         followsUserLocation={true}
+         onRegionChangeComplete = {this.onChangeValue}
+         >
+         </MapView>
+         <View style={{top:'50%', left:'50%', marginLeft:-24, marginTop:-48, position:'absolute'}}>
+            <Image style={{height: 48, width: 48}} source={require('./assets/marker.png')}/>
+          </View>
+       </View>
+
+
+       </View>
+
+       
+      
+       
+       
+      )
+    }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Mapa.propTypes ={
+  provider: ProviderPropType
+}
 
 const styles = StyleSheet.create({
   container:{
-    paddingTop: 100
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center'
   },
-  titulo:{
-    textAlign: 'center'
-  },
-  montacancelar:{
-    textAlign: 'center',
-    marginBottom: 20,
-    flexDirection:"row",
-    backgroundColor:"red",
-    paddingTop:20
-  },
-  montacancelarTexto:{
-    textAlign: 'center',
-    marginBottom: 30,
-    flex:1
-  },
-  efectivo:{
-    margin:30,
-    width: 300,
-    backgroundColor: "red"
-  },
-  efectivoButton:{
-    marginLeft: 100
-  },
-  transferencia:{
-    backgroundColor: "green",
-    width: 300
-  },
-  transferenciaButton:{
-    marginTop: 30, 
-    marginLeft: 50
-  },
-  olvide:{
-    textAlign: 'center',
-    color: 'blue',
-    marginTop: 60
-  },
-  registrate:{
-    textAlign: 'center',
-    color: 'blue',
-    marginTop: 10
-  },
-  buttonLogin:{
-    marginTop: 80
-  },
-  logoHeight:{
-    width: 45,
-    height: 45,
-    resizeMode:'contain' 
-  }, 
-  color:{
-    backgroundColor: 'orange'
-  },
-  left:{
-    marginLeft: 90
-  },
-  justify:{
-    textAlign : 'justify',
-    marginBottom: 20
-  },
-  margin:{
-    marginLeft:60
+  map:{
+    height: '100%',
+    width: '100%'
   }
 })
 
-export default ZoluMarket
+
+
+export default Mapa
+         

@@ -56,7 +56,7 @@ class ZoluMarket extends Component{
             </Tab>
 
             <Tab heading={ <TabHeading style={this.state.currentTab === 0 ? styles.activeTabStyle : styles.tabStyle}><Icon name="paper-plane" /><Text>Delivery</Text></TabHeading>}>
-              <Perfil2 />
+              <Perfil2 navigation={navigation}/>
             </Tab>
 
             <Tab heading={ <TabHeading style={this.state.currentTab === 1 ? styles.activeTabStyle : styles.tabStyle}><Icon name="settings" /><Text>Pagos</Text></TabHeading>}>

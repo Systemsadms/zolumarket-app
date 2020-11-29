@@ -11,6 +11,8 @@ import ZoluMarketProfile from './components/Profile'
 
 import ProductoZoluMarket from './components/Producto'
 import HanaNaturalFood from './components/Hana'
+import MapaDelivery from './components/Mapa'
+
 
 
 import HomeTest from './components/ComponenteHome'
@@ -66,6 +68,7 @@ function App() {
         <Stack.Screen name="Registro de Usuario"   component={RegistroUsuario} />
         <Stack.Screen name="Registra tu Usuario"   component={RegistroPerfil} />
         <Stack.Screen name="Pago"   options={{ headerShown: false }} component={PagoProcesado} />
+        <Stack.Screen name="Mapa"   component={MapaDelivery} />
 
         <Stack.Screen name="Details" component={DetailsScreen} />
         <Stack.Screen name="ZoluMarketTest" component={HomeTest} />
